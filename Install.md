@@ -18,13 +18,9 @@ or for editable installs into the user directory:
 
     pip install --user -e .[development,testing]
 
-## Installation on Windows
-Installation on Windows is currently (Spring 2021) rather easy, following the above instructions. The dependencies should be installed using either `conda` or the Intel python distribution and then `pip install porepy` from source. 
-
-Please note that running PorePy on Windows is not officially supported, in the sense that we may introduce updates to the code or new dependencies which may break Windows compatibility. 
 
 ## Installation on Mac
-Install on Mac should also be straightforward if using `conda`. Similar to Windows, compatibility with Mac is not officially supported.
+Install on Mac should also be straightforward if using `conda`. Please note that compatibility with Mac is not officially supported.
 
 ### Metis & pymetis
 The metis package is used to partition meshes. In order to use this package, you must install metis from George Karypis
